@@ -1,2 +1,9 @@
-package com.scaler.productservice.controllers;public class ProductController {
+package com.scaler.productservice.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ProductController {
+
+
 }
