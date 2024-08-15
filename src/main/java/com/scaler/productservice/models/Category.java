@@ -1,8 +1,11 @@
 package com.scaler.productservice.models;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class Category {
 
     private Long id;

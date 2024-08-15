@@ -1,21 +1,15 @@
-package com.scaler.productservice.models;
+package com.scaler.productservice.dtos;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class Product {
+public class ProductRequestDto {
 
-    private Long id;
     private String title;
-
     private String description;
-
     private Double price;
-
     private String imageUrl;
-
-    private Category category;
+    private String categoryName;
 }
